@@ -1,0 +1,41 @@
+{
+  "name": "angular-image-popup",
+  "version": "0.0.1",
+  "authors": [
+    "Artem I. <2urnix@gmail.com>"
+  ],
+  "description": "AngularJS directive that show popup with full-sized image on hover.",
+  "dependencies": {
+    "angular": "~1.4.5"
+  },
+  "main": "angular-image-popup.js",
+  "keywords": [
+    "angular",
+    "angular.js",
+    "angularjs",
+    "ng",
+    "image",
+    "zoom",
+    "popup",
+    "preview",
+    "hover",
+    "angular-image-popup",
+    "angularimagepopup",
+    "image-popup",
+    "ng-src",
+    "src"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/urnix/angular-image-popup.git"
+  },
+  "homepage": "https://github.com/urnix/angular-image-popup",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
