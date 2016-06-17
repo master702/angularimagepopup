@@ -1,6 +1,6 @@
 {
-  "name": "angular-image-popup",
-  "version": "0.0.2",
+  "name": "angularimagepopup",
+  "version": "0.0.3",
   "authors": [
     "Artem I. <2urnix@gmail.com>"
   ],
@@ -8,7 +8,7 @@
   "dependencies": {
     "angular": "~1.4.5"
   },
-  "main": "angular-image-popup.js",
+  "main": "angularimagepopup.js",
   "keywords": [
     "angular",
     "angular.js",
@@ -19,7 +19,6 @@
     "popup",
     "preview",
     "hover",
-    "angular-image-popup",
     "angularimagepopup",
     "image-popup",
     "ng-src",
@@ -28,9 +27,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/urnix/angular-image-popup.git"
+    "url": "git://github.com/urnix/angularimagepopup.git"
   },
-  "homepage": "https://github.com/urnix/angular-image-popup",
+  "homepage": "https://github.com/urnix/angularimagepopup",
   "ignore": [
     "**/.*",
     "node_modules",

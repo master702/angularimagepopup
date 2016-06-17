@@ -1,7 +1,7 @@
 (function () {
     'use strict';
 
-    angular.module('angularImagePopup', [])
+    angular.module('angularimagepopup', [])
         .directive('angularImagePopup', ['$window',
             function ($window) {
                 return {
@@ -13,7 +13,7 @@
                     isOutside = false, isOpen, isTouch, hasMoved;
 
                 function link (scope, element, attrs) {
-                    if ($('.angular-image-popup-overlay').length) {
+                    if ($('.angularimagepopup').length) {
                         element.bind('mouseover', onMouseOver);
                         return;
                     }
@@ -27,7 +27,7 @@
                     });
 
                     underlay = document.createElement('div');
-                    underlay.className += ' angular-image-popup-overlay';
+                    underlay.className += ' angularimagepopup';
                     underlay.setAttribute('style', 'position: fixed; left:0; top:0; width:100vw; height: 100vh; transition: opacity 0.1s ease 100ms; opacity: 0; pointer-events:none; background: rgba(0,0,0,0.7); z-index: 1100');
                     document.body.appendChild(underlay);
 

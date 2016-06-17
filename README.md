@@ -1,4 +1,4 @@
-# angular-image-popup
+# angularimagepopup
 
 AngularJS directive that show popup with full-sized image on hover.
 
@@ -7,7 +7,7 @@ AngularJS directive that show popup with full-sized image on hover.
 Install with bower:
 
 ```bash
-bower install --save angular-image-popup
+bower install --save angularimagepopup
 ```
 
 Add as a dependency in your Angular app:
@@ -19,5 +19,5 @@ var app = angular.module('app', ['angularImagePopup']);
 Use directive:
 
 ```html
-<img ng-src="{{unreliableSrc}}" angular-image-popup>
+<img ng-src="{{unreliableSrc}}" angularimagepopup>
 ```
